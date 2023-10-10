@@ -1,0 +1,23 @@
+{
+  "name": "pruebas",
+  "version": "1.0.0",
+  "description": "prueba",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "server": "nodemon server.js",
+    "cliente1": "nodemon cliente1.js"
+  },
+  "author": "eduardo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20",
+    "swagger-jsdoc": "^6.2.5",
+    "swagger-ui-express": "^4.6.0"
+  }
+}
